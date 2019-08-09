@@ -1,13 +1,28 @@
 # C programs - Chapter 1
 
 ## Introduction
-Learning C programming language the right way.
+Learning C programming language the right way
 
-## Knowledge
+## Description
 Essential elements of the language
 
-## Date
+---
+
+### Tutorial Introduction
+* Variables and arithmetic expressions
+* The for statement
+* Symbolic constants
+* Character input and output
+* Arrays
+* Functions
+* Arguments - call by value
+* Character arrays
+* External variables and scope
+
+---
+
+### Date
 2019
 
-## Maintainer
-@Diego-Zen
+## Author
+* **Diego Monroy** - [@Diego-Zen](https://github.com/Diego-Zen)
