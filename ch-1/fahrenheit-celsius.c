@@ -9,23 +9,15 @@
 
 int main(void)
 {
-	float fahr, celsius;
-	int lower, upper, step;
+	int fahr;
 
-	lower = 0; /* lower limit of temperature table */
-	upper = 300; /* upper limit */
-	step = 20; /* step size */
-
-	fahr = lower;
 	printf("%3s %6s\n", "Far", "Celc");
-	while (fahr <= upper)
+	for (fahr = 0; fahr <= 300; fahr += 20)
 	{
-		celsius = (5.0 / 9.0) * (fahr - 32.0);
 		/* %3.0f floating-point printed at least three chars wide */
 		/* with no decimal point and no fraction digits*/
 		/* %6.1f six chars wide, 1 digit after decimal point*/
-		printf("%3.0f %6.1f\n", fahr, celsius);
-		fahr = fahr + step;
+		printf("%3d %6.1f\n", fahr, (5.0/9.0) * (fahr - 32));
 	}
 
 	return (0);
