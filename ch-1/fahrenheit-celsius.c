@@ -12,7 +12,7 @@ int main(void)
 	int fahr;
 
 	printf("%3s %6s\n", "Far", "Celc");
-	for (fahr = 0; fahr <= 300; fahr += 20)
+	for (fahr = 300; fahr >= 0; fahr -= 20)
 	{
 		/* %3.0f floating-point printed at least three chars wide */
 		/* with no decimal point and no fraction digits*/
